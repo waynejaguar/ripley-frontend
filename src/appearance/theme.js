@@ -1,0 +1,155 @@
+import { createMuiTheme } from '@material-ui/core/styles';
+
+export const menuWidth = 266;
+
+export const colors = {
+    darkBlue: '#041f41',
+    hoverDarkBlue: '#17304f',
+    lightBlue: '#e1edf9',
+    lightGray: '#f5f5f5',
+    lightGray2: '#fafafa',
+    lightGray3: '#8c9095',
+    lightGray4: '#eceef1',
+    lightGray5: '#e3e5e7',
+    lightGray6: '#888c92',
+    lightGray7: '#f8f9fb',
+    lightGray8: '#e0e0e0',
+    mediumGray: '#6d7278',
+    lineGray: '#dedede',
+    linkBlue: '#0070d5',
+    lightBlue2: '#0071ce',
+    ripleyGrayLight: '#d8d8d8',
+    ripleyBlue: '#40546e',
+    ripleyBlue2: '#031f42',
+    ripleyBlue3: '#7ab8e4',
+    ripleyError: '#F44336',
+    ripleyProfileCard: '#1188c8',
+    white: '#fff',
+    pink: '#dd1385',
+    black: '#000',
+    gray: '#757575',
+    gray2: '#95999f',
+    gray3: '#546e7a',
+    disabledGray: '#303030',
+    disableButtom: '#757575',
+    deeperPink: '#c6167d',
+    fogGray: '#9c9c9c',
+    green2: '#77c043',
+    greenSucces: '#77C044',
+    red: '#c80404',
+    denim: '#3e6b92',
+    yellow: '#fec221',
+    replayYellow: '#fdc400',
+    replayOrange: '#eb5a09',
+    redAlert: '#f6cfc6',
+    status: {
+        default: '#000',
+        danger: '#d0021b',
+        success: '#53a546',
+    },
+}
+
+export const layout = {
+    margin: 24,
+    cardPadding: 20,
+    mainPadding: 24,
+}
+
+export const shadow = '0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12)'
+
+export const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: colors.darkBlue,
+            contrastText: colors.white,
+            light: colors.lightBlue,
+        },
+        background: {
+            light: colors.lightGray,
+        },
+        text: {
+            primary: colors.black,
+            secondary: colors.gray,
+        },
+        action: {
+            disabled: colors.disabledGray,
+        },
+    },
+    typography: {
+        useNextVariants: true,
+        fontFamily: '"BogleWeb"',
+        lineHeight: 'normal',
+        h1: {
+            fontSize: 32,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        h2: {
+            fontSize: 32,
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        h3: {
+            fontSize: 20,
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        h4: {
+            fontSize: 18,
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        h5: {
+            fontSize: 18,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        body1: {
+            fontSize: 16,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        body2: {
+            fontSize: 14,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        subtitle1: {
+            fontSize: 16,
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+        caption: {
+            fontSize: 18,
+            fontWeight: 'bold',
+            fontStyle: 'italic',
+            fontStretch: 'normal',
+            lineHeight: 'normal',
+            letterSpacing: 'normal',
+        },
+    },
+})
